@@ -1,12 +1,12 @@
-import React from 'react'
-import Navbar from '../../components/Navbar'
+import React from "react"
+import Layout from "../../components/Layout"
 
 const index = () => {
-    return (
-        <div>
-            this is a Home page for projects
-        </div>
-    )
+  return (
+    <Layout>
+      <div>this is a Home page for projects</div>
+    </Layout>
+  )
 }
 
 export default index
