@@ -12,6 +12,7 @@ export default function Home() {
           <p>Desing</p>
           <Link className={styles.btn} to="/projects">Go To Projects</Link>
         </div>
+          <img src="/banner.png" style={{maxWidth:'80%'}} ></img>
       </section>
     </Layout>
   )
