@@ -6,7 +6,16 @@
 
 module.exports = {
   /* Your site config here */
-  plugins: [],
+  plugins: [
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `notes`,
+        path: `${__dirname}/src/notes/`,
+      },
+    },
+    
+  ],
  siteMetadata :{
    title : 'web site aljiwar ',
    description : 'this is site web for Association ALJIWAR',
