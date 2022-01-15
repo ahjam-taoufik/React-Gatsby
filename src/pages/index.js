@@ -1,8 +1,10 @@
-import { graphql, Link } from "gatsby"
+import {Link } from "gatsby"
 import React from "react"
 import Layout from "../components/Layout"
 import * as styles from '../styles/home.module.css'
+
 export default function Home() {
+  
  
   return (
     <Layout>
@@ -18,3 +20,4 @@ export default function Home() {
     </Layout>
   )
 }
+
